@@ -1,6 +1,14 @@
+body {
+    background-color: #ddd;
+}
+section  {
+    height: 100vh;
+    padding-top: 5rem;
+}
 nav {
     background-color: #ddd;
 }
 .home {
-     
+    background-image: url(../img/produk1.png);
+    background-size: cover;
 }
