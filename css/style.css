@@ -1,14 +1,24 @@
 body {
-    background-color: #ddd;
+    background-color: #eee;
 }
 section  {
     height: 100vh;
-    padding-top: 5rem;
+    padding: 5rem 0;
 }
 nav {
-    background-color: #ddd;
+    background-color: rgb(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
 }
 .home {
     background-image: url(../img/produk1.png);
     background-size: cover;
+}
+.home .col-md-6 {
+    backdrop-filter: blur(10px);
+    border-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+.about .card {
+    width: 25rem;
 }
