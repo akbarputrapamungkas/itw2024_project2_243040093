@@ -1,25 +1,43 @@
-body {
-    background-color: #eee;
-    overflow-x: hidden;
+:root {
+  --warna-utama: #d92525;
+  --warna-kedua: #fdbbaf;
 }
-section  {
-    height: 100vh;
-    padding: 5rem 0;
-} 
+body {
+  background-color: #eee;
+  overflow-x: hidden;
+}
+
 nav {
-    background-color: rgb(255, 255, 255, .2);
-    backdrop-filter: blur(5px);
+  background-color: var(--warna-utama);
+
+  backdrop-filter: blur(5px) opacity(0.1);
 }
 .home {
-    background-image: url(../img/produk1.png);
-    background-size: cover;
+  background-image: url(../img/produk1.png);
+  background-size: cover;
 }
 .home .content {
-    backdrop-filter: blur(10px);
-    border-color: transparent;
-    /* width: 50%;
+  backdrop-filter: blur(10px);
+  border-color: transparent;
+  /* width: 50%;
     height: 50%; */
 }
 .about .card {
-    width: 25rem;
+  width: 25rem;
+}
+.product {
+  background-color: var(--warna-kedua);
+  height: auto;
+}
+.product .card {
+  cursor: pointer;
+}
+.product .card .card-body {
+  border-color: red;
+}
+@media (min-width: 800px) {
+  section {
+    height: 100vh;
+    padding: 5rem 0;
+  }
 }
