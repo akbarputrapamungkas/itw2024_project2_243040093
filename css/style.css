@@ -1,19 +1,29 @@
+:root {
+  --warna-utama: #d92525;
+  --warna-kedua: #ee9a9a;
+}
+
 body {
     background-color: #eee;
     overflow-x: hidden;
+    font-size: 1.3rem;
 }
 section  {
-    height: 100vh;
+    
     padding: 5rem 0;
 } 
 nav {
-    background-color: rgb(255, 255, 255, .2);
+    background-color: rgb(217, 37, 37, .5);
     backdrop-filter: blur(5px);
+}
+.jumbotron {
+  padding: 5rem -1rem;
 }
 .home {
     background-image: url(../img/produk1.png);
     background-size: cover;
     color: #fff;
+    height: 100vh;
 }
 .home .content {
     backdrop-filter: blur(10px);
@@ -21,16 +31,21 @@ nav {
     /* width: 50%;
     height: 50%; */
 }
+
 .about .card {
     width: 25rem;
 }
 
-
-
+.product {
+  background-color: var(--warna-kedua);
+}
+.lokasi iframe {
+  height: 500px;
+}
 
 @media (max-width: 600px) {
   .home {
-    color: black;
+    
     background-image: url(../img/produk2.jpg);
     background-color: #eee;
     max-width: 100%;
