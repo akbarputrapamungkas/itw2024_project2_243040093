@@ -73,4 +73,8 @@ nav {
   .mobile {
     display: none;
   }
+  
+.about .card {
+    width: 100%;
+}
 }
