@@ -61,6 +61,9 @@ nav {
 .kontak .container {
   background-color: #eee;
 }
+footer {
+  padding: 3rem 0;
+}
 
 @media (max-width: 600px) {
   .home {
@@ -75,6 +78,6 @@ nav {
   }
   
 .about .card {
-    width: 100%;
+    width: 100%   B ;
 }
 }
